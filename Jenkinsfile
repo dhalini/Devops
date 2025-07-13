@@ -1,11 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/dhalini/Devops.git'
-            }
-        }
+
 
         stage('Install Dependencies') {
             steps {
